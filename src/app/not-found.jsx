@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function NotFound() {
     return (
-        <div class='bg-gray-100 h-screen justify-center'>
+        <div className='bg-gray-100 h-screen justify-center'>
             <center class='pt-48 m-auto'>
                 <svg
                     className='emoji-404 '
