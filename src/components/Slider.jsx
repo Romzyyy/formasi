@@ -17,14 +17,14 @@ const Slider = () => {
     }
 
     return (
-        <div className='w-full h-screen '>
+        <div className='w-full h-screen bg-red-500'>
             <Zoom {...zoomProperties}>
                 {images.map((each, index) => (
                     <div
                         key={index}
                         className='flex justify-center md:items-center items-start w-screen h-screen relative'>
                         <Image
-                            className='w-screen brightness-50 h-'
+                            className='w-screen brightness-50 h-4/6 object-cover sm:h-screen'
                             alt='Slide Image'
                             src={each}
                             width={10000}
