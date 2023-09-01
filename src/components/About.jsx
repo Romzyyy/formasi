@@ -14,7 +14,7 @@ export default function About() {
             </p>
             <div className='flex flex-col my-8 gap-8'>
                 <div>
-                    <h1 className='font-semibold text-xl mb-2'>VISI</h1>
+                    <h1 className='font-semibold text-xl mb-1'>VISI</h1>
                     <p className='text-lg'>
                         Menjadi pusat pendidikan tinggi dan pengembangan
                         keilmuan Teknik Industri yang unggul melalui
@@ -24,7 +24,7 @@ export default function About() {
                     </p>
                 </div>
                 <div className='text-right'>
-                    <h1 className='font-semibold text-xl mb-2'>MISI</h1>
+                    <h1 className='font-semibold text-xl mb-1'>MISI</h1>
                     <p className='text-lg'>
                         Menyelenggarakan program pendidikan tinggi Teknik
                         Industri yang relevan dengan kebutuhan industri dan
