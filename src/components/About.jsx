@@ -31,17 +31,17 @@ export default function About() {
                         masyarakat untuk menghasilkan sarjana yang bermoral,
                         berkemampuan akademik, dan berjiwa entrepreneur.
                     </p>
-                    <p className='mt-4 text-lg'>
+                    <p className='mt-2 text-lg'>
                         Melakukan penelitian dan pengabdian kepada masyarakat
                         dalam rangka mengembangkan keilmuan Teknik Industri dan
                         membantu menyelesaikan permasalahan industri.
                     </p>
-                    <p className='mt-4 text-lg'>
+                    <p className='mt-2 text-lg'>
                         Memberikan pelayanan kepada stakeholder melalui
                         pendidikan, penelitian, dan pengabdian kepada
                         masyarakat.
                     </p>
-                    <p className='mt-4 text-lg'>
+                    <p className='mt-2 text-lg'>
                         Membangun jaringan kerjasama guna perbaikan pendidikan,
                         peningkatan mutu operasional Tri Dharma Perguruan
                         Tinggi, dan kerjasama penelitian.
