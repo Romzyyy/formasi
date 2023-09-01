@@ -42,7 +42,7 @@ export default function Home() {
                 </div>
             </div>
             <Galery />
-            <div className='mb-10 bg-red-500 w-full pb-10'>
+            <div className='mb-10 w-full pb-10'>
                 <h1 className=' my-10 text-xl text-center font-semibold text-slate-800'>
                     Meet Our Team Members
                 </h1>
