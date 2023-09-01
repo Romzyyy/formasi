@@ -11,7 +11,7 @@ export default function Home() {
             <About />
             <div className='flex flex-col w-full mb-20 px-6'>
                 <h1 className='mb-4 text-xl font-semibold'>
-                    New Information
+                   Information
                 </h1>
                 <div className='grid grid-rows-4 gap-4'>
                     <Card

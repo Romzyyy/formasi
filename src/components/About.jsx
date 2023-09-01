@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className='-mt-64 text-zinc-950 w-screen px-8'>
+        <div className='-mt-64 text-zinc-950 w-screen px-6'>
             <p className='text-xl tracking-wide'>
                 <span className='font-semibold text-2xl mr-2'>
                     Forum Mahasiswa Sistem Informasi
