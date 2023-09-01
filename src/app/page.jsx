@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import Avatar from '@/components/Avatar'
 import Card from '@/components/Card'
 import Galery from '@/components/Galery'
 import Slider from '@/components/Slider'
@@ -41,11 +42,11 @@ export default function Home() {
                 </div>
             </div>
             <Galery />
-            <div className='mb-40'>
-                <h1 className=' my-20 text-4xl text-center font-semibold text-slate-800'>
+            <div className='mb-10 bg-red-500 w-full pb-10'>
+                <h1 className=' my-10 text-xl text-center font-semibold text-slate-800'>
                     Meet Our Team Members
                 </h1>
-                <Team />
+                <Avatar />
             </div>
         </main>
     )
