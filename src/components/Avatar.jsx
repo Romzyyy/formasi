@@ -3,55 +3,69 @@ import React from 'react'
 
 export default function Avatar() {
     return (
-        <div className='avatar-group grid grid-cols-4  px-6 -space-x-6'>
-            
-            <div className='bg-blue-500 w-full h-full pl-10'>
-                <div className='avatar'>
-                    <div className='w-full'>
-                        <Image
-                            alt='image'
-                            width={1000}
-                            height={1000}
-                            src='/asd1.jpg'
-                        />
-                    </div>
-                </div>
+        <div className=' flex justify-center flex-wrap px-6 -space-x-14 justify-items-center '>
+            <div className='w-36 h-36 mb-6'>
+                <Image
+                    className=' rounded-full h-full w-full object-cover border-4'
+                    alt='image'
+                    width={1000}
+                    height={1000}
+                    src='/asd1.jpg'
+                />
             </div>
-            <div className='bg-red-500'>
-                <div className='avatar'>
-                    <div className='w-full'>
-                        <Image
-                            alt='image'
-                            width={1000}
-                            height={1000}
-                            src='/asd2.jpg'
-                        />
-                    </div>
-                </div>
+            <div className='w-36 h-36 mb-6'>
+                <Image
+                    className=' rounded-full h-full w-full object-cover border-4'
+                    alt='image'
+                    width={1000}
+                    height={1000}
+                    src='/asd2.jpg'
+                />
             </div>
-            <div>
-                <div className='avatar'>
-                    <div className='w-full'>
-                        <Image
-                            alt='image'
-                            width={1000}
-                            height={1000}
-                            src='/asd3.jpg'
-                        />
-                    </div>
-                </div>
+            <div className='w-36 h-36 mb-6'>
+                <Image
+                    className='rounded-full h-full w-full object-cover border-4'
+                    alt='image'
+                    width={1000}
+                    height={1000}
+                    src='/asd3.jpg'
+                />
             </div>
-            <div>
-                <div className='avatar'>
-                    <div className='w-full'>
-                        <Image
-                            alt='image'
-                            width={1000}
-                            height={1000}
-                            src='/asd4.jpg'
-                        />
-                    </div>
-                </div>
+            <div className=' w-36 h-36 mb-6 '>
+                <Image
+                    className='ml-7 rounded-full h-full w-full object-cover border-4'
+                    alt='image'
+                    width={1000}
+                    height={1000}
+                    src='/asd4.jpg'
+                />
+            </div>
+            <div className='w-36 h-36 mb-6'>
+                <Image
+                    className='ml-7 rounded-full h-full w-full object-cover border-4'
+                    alt='image'
+                    width={1000}
+                    height={1000}
+                    src='/asd4.jpg'
+                />
+            </div>
+            <div className='w-36 h-36 mb-6'>
+                <Image
+                    className='ml-7 rounded-full h-full w-full object-cover border-4'
+                    alt='image'
+                    width={1000}
+                    height={1000}
+                    src='/asd4.jpg'
+                />
+            </div>
+            <div className='w-36 h-36 mb-6'>
+                <Image
+                    className='ml-7 rounded-full h-full w-full object-cover border-4'
+                    alt='image'
+                    width={1000}
+                    height={1000}
+                    src='/asd4.jpg'
+                />
             </div>
         </div>
     )

@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 export default function Footer() {
     return (
-        <div className=' bg-slate-900 text-zinc-500'>
-            <footer className='footer flex flex-col p-10 container m-auto'>
-                <div className='flex flex-row '>
+        <div className=' bg-slate-900 text-zinc-500 w-full px-6'>
+            <footer className='footer flex flex-col  container m-auto'>
+                <div className='flex flex-row mt-10'>
                     <Image
                         src={'/logo.png'}
                         width={100}
@@ -16,7 +16,7 @@ export default function Footer() {
                         <a className='text-sm'>forum sistem informasi</a>
                     </div>
                 </div>
-                <div className='flex flex-row justify-between w-full'>
+                <div className='flex flex-col space-y-6 w-full mb-10'>
                     <div className='flex flex-col'>
                         <span className='footer-title'>Alamat</span>
                         <a className='link link-hover'>jl. batuan no.10</a>

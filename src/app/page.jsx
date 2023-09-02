@@ -1,10 +1,10 @@
 import About from '@/components/About'
 import Avatar from '@/components/Avatar'
 import Card from '@/components/Card'
-import Coba from '@/components/Coba'
+import Coba from '@/components/Avatar'
 import Galery from '@/components/Galery'
 import Slider from '@/components/Slider'
-import Team from '@/components/Team'
+import Footer from '@/components/Footer'
 
 export default function Home() {
     return (
@@ -43,12 +43,13 @@ export default function Home() {
                 </div>
             </div>
             <Galery />
-            <div className='mb-10 w-full pb-10'>
+            <div className=' w-full pb-10'>
                 <h1 className=' my-10 text-xl text-center font-semibold text-slate-800'>
                     Meet Our Team Members
                 </h1>
-                <Coba />
+                <Avatar />
             </div>
+            <Footer/>
         </main>
     )
 }
