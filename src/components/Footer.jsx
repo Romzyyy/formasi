@@ -2,21 +2,21 @@ import Image from 'next/image'
 
 export default function Footer() {
     return (
-        <div className=' bg-slate-900 text-slate-200 w-full px-6'>
+        <div className=' bg-slate-900 text-slate-200 w-full h-screen px-6 '>
             <footer className='footer flex flex-col  container m-auto'>
-                <div className='flex flex-row mt-8'>
+                <div className='flex flex-row mt-2'>
                     <Image
                         src={'/logo.png'}
                         width={100}
                         height={100}
-                        className='w-10 h-10 cursor-pointer'
+                        className='w-8 h-8 cursor-pointer'
                     />
                     <div className='flex flex-col ml-2 cursor-pointer'>
-                        <a className='text-lg font-bold'>FORMASI</a>
+                        <a className='text-xs font-bold'>FORMASI</a>
                         <a className='text-sm'>forum sistem informasi</a>
                     </div>
                 </div>
-                <div className='flex flex-col space-y-6 w-full mb-10'>
+                <div className='flex flex-col space-y-12 w-full mt-2'>
                     <div className='flex flex-col'>
                         <span className='footer-title'>Alamat</span>
                         <a className='link link-hover'>jl. batuan no.10</a>
@@ -68,8 +68,8 @@ export default function Footer() {
                     </div>
                 </div>
             </footer>
-            <footer className='footer footer-center p-4 bg-slate-900 text-zinc-500'>
-                <div>
+            <footer className='footer footer-center  p-4 bg-slate-900 text-zinc-500'>
+                <div className='mt-96'>
                     <p>
                         Copyright © 2023 - All right reserved by web developer
                         formasi

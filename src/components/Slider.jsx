@@ -22,25 +22,25 @@ const Slider = () => {
                 {images.map((each, index) => (
                     <div
                         key={index}
-                        className='flex justify-center md:items-center items-start w-screen h-screen relative'>
+                        className='flex justify-center md:items-center items-start w-screen h-screen'>
                         <Image
-                            className='w-screen brightness-50 h-3/5 object-cover sm:h-screen '
+                            className='w-screen brightness-50 h-screen object-cover sm:h-screen '
                             alt='Slide Image'
                             src={each}
                             width={10000}
                             height={10000}
                         />
-                        <div className='absolute md:top-72 top-24 inset-x-auto text-white'>
-                            <h1 className=' md:top-20 top-24 inset-x-1/4 text-center z-10 tracking-widest sm:text-7xl text-5xl font-extrabold mt-20'>
+                        <div className='absolute px-6 md:top-72 top-24 inset-x-auto text-white mt-56 bg-clip-text text-transparent bg-gradient-to-r from-slate-500 to-slate-100'>
+                            <h1 className='  top-24 inset-x-1/4 text-center z-10 tracking-widest text-6xl font-extrabold mt-10'>
                                 FORMASI
                             </h1>
-                            <p className='top-40 inset-x-1/4 text-center z-10 sm:text-6xl font-semibold text-4xl mt-4'>
+                            <p className='top-40 inset-x-1/4 text-center z-10 font-bold text-4xl mt-2'>
                                 FORUM MAHASISWA SISTEM INFORMASI
                             </p>
-                            <p className=' md:top-56 top-20 inset-x-1/4 text-center z-10 md:text-6xl font-medium text-2xl  mt-1'>
+                            <p className='  top-20 inset-x-1/4 text-center z-10  font-extrabold text-2xl mt-2'>
                                 UNIBA MADURA
                             </p>
-                            <div className='mt-4 flex flex-row justify-center gap-x-8'>
+                            <div className='mt-52 flex flex-row justify-center gap-x-8 text-white'>
                                 <a>
                                     <svg
                                         xmlns='http://www.w3.org/2000/svg'
