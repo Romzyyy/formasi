@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Footer() {
     return (
-        <div className=' bg-slate-900 text-slate-200 w-full h-screen px-6 '>
+        <div className=' bg-slate-900 text-slate-200 w-full h-screen px-6'>
             <footer className='footer flex flex-col  container m-auto'>
                 <div className='flex flex-row mt-2'>
                     <Image
@@ -69,7 +69,7 @@ export default function Footer() {
                 </div>
             </footer>
             <footer className='footer footer-center  p-4 bg-slate-900 text-zinc-500'>
-                <div className='mt-96'>
+                <div className='mt-80'>
                     <p>
                         Copyright © 2023 - All right reserved by web developer
                         formasi

@@ -30,17 +30,17 @@ const Slider = () => {
                             width={10000}
                             height={10000}
                         />
-                        <div className='absolute px-6 md:top-72 top-24 inset-x-auto text-white mt-56 bg-clip-text text-transparent bg-gradient-to-r from-slate-500 to-slate-100'>
-                            <h1 className='  top-24 inset-x-1/4 text-center z-10 tracking-widest text-6xl font-extrabold mt-10'>
+                        <div className='absolute px-6 top-10 inset-x-auto mt-56 bg-clip-text text-transparent bg-gradient-to-r from-slate-600 to-slate-100'>
+                            <h1 className='top-24 inset-x-1/4 text-center z-10 tracking-widest text-6xl font-extrabold mt-10'>
                                 FORMASI
                             </h1>
-                            <p className='top-40 inset-x-1/4 text-center z-10 font-bold text-4xl mt-2'>
+                            <p className='top-40 inset-x-1/4 text-center z-10 font-bold text-3xl mt-2'>
                                 FORUM MAHASISWA SISTEM INFORMASI
                             </p>
                             <p className='  top-20 inset-x-1/4 text-center z-10  font-extrabold text-2xl mt-2'>
                                 UNIBA MADURA
                             </p>
-                            <div className='mt-52 flex flex-row justify-center gap-x-8 text-white'>
+                            <div className='mt-44 flex flex-row justify-center gap-x-8 text-white'>
                                 <a>
                                     <svg
                                         xmlns='http://www.w3.org/2000/svg'
