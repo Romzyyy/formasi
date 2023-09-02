@@ -69,7 +69,7 @@ export default function Footer() {
                 </div>
             </footer>
             <footer className='footer footer-center  p-4 bg-slate-900 text-zinc-500'>
-                <div className='mt-80'>
+                <div className='mt-40'>
                     <p>
                         Copyright © 2023 - All right reserved by web developer
                         formasi
