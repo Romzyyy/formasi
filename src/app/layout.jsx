@@ -18,7 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang='en' data-theme='garden'>
+        <html lang='en' data-theme='garden' className='scroll-smooth'>
             <link rel='icon' href='/logo.png' type='image/png' sizes='32x32' />
             <body className={inter.className}>
                 <main className='w-full m-auto'>

@@ -5,22 +5,22 @@ import { useState } from 'react'
 export default function Navbar() {
     const [toggle, setToggle] = useState(false)
     return (
-        <div className='navbar shadow-lg text-slate-800 bg-opacity-5 fixed top-0 left-0 right-0 z-50 backdrop-blur-sm bg-white/30'>
+        <div className='navbar-center h-12 flex items-center shadow-md shadow-slate-900 text-slate-50 fixed top-0 left-0 right-0 z-50 bg-opacity-90 backdrop-blur-sm bg-slate-900'>
             <div className='flex justify-between px-6 w-full'>
                 <div className='flex items-center cursor-pointer'>
                     <Image
                         src={'/logo.png'}
                         width={100}
                         height={100}
-                        className='w-10 h-10'
+                        className='w-8 h-8'
                     />
-                    <div className='flex flex-col ml-2'>
+                    <div className='sm:flex flex-col ml-2 hidden'>
                         <a className='text-lg font-bold'>FORMASI</a>
                         <a className='text-sm'>forum sistem informasi</a>
                     </div>
                 </div>
                 <div
-                    className='cursor-pointer transition-transform duration-700'
+                    className='cursor-pointer transition'
                     onClick={() => setToggle(toggle ? false : true)}>
                     <svg
                         xmlns='http://www.w3.org/2000/svg'
@@ -39,30 +39,30 @@ export default function Navbar() {
                             }
                         />
                     </svg>
-                <div className={toggle ? 'block' : 'hidden'}>
-                    <div className='absolute bg-opacity-5 backdrop-blur-sm bg-white/90 w-40 p-4 right-3 top-full rounded-md font-medium shadow-2xl'>
-                    <ul className='flex flex-col md:flex-row gap-2 md:gap-10 px-1 '>
-                        <li className='cursor-pointer hover:text-gray-400 transition'>
-                            <a href=''>Home</a>
-                        </li>
-                        <li className='cursor-pointer hover:text-gray-400 transition'>
-                            <a>About</a>
-                        </li>
-                        <li className='cursor-pointer hover:text-gray-400 transition'>
-                            <a>News</a>
-                        </li>
-                        <li className='cursor-pointer hover:text-gray-400 transition'>
-                            <a>Gallery</a>
-                        </li>
-                        <li className='cursor-pointer hover:text-gray-400 transition'>
-                            <a>Team</a>
-                        </li>
-                        <li className='cursor-pointer hover:text-gray-400 transition'>
-                            <a>Contact</a>
-                        </li>
-                    </ul>
+                    <div className={toggle ? 'block' : 'hidden'}>
+                        <div className='absolute bg-opacity-5 backdrop-blur-sm bg-white/90 w-40 p-4 right-3 top-full rounded-md font-medium shadow-md shadow-slate-400 text-slate-800'>
+                            <ul className='flex flex-col md:flex-row gap-2 md:gap-10 px-1 '>
+                                <li className='cursor-pointer hover:text-gray-400 transition'>
+                                    <a href='/footer'>Home</a>
+                                </li>
+                                <li className='cursor-pointer hover:text-gray-400 transition'>
+                                    <a>About</a>
+                                </li>
+                                <li className='cursor-pointer hover:text-gray-400 transition'>
+                                    <a>News</a>
+                                </li>
+                                <li className='cursor-pointer hover:text-gray-400 transition'>
+                                    <a>Gallery</a>
+                                </li>
+                                <li className='cursor-pointer hover:text-gray-400 transition'>
+                                    <a>Team</a>
+                                </li>
+                                <li className='cursor-pointer hover:text-gray-400 transition'>
+                                    <a>Contact</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>

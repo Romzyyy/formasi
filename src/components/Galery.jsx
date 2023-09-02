@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Galery() {
     return (
-        <div className='relative flex flex-col w-full bg-slate-800 px-6'>
+        <div className='relative flex flex-col w-full bg-slate-900 px-6'>
             <h1 className='my-6 text-xl font-semibold text-slate-200 cursor-pointer hover:text-slate-50'>
                 Galery
             </h1>
