@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Footer() {
     return (
-        <div className=' bg-slate-900 text-zinc-500 w-full px-6'>
+        <div className=' bg-slate-900 text-slate-200 w-full px-6'>
             <footer className='footer flex flex-col  container m-auto'>
                 <div className='flex flex-row mt-8'>
                     <Image
@@ -33,7 +33,7 @@ export default function Footer() {
                     </div>
                     <div>
                         <span className='footer-title'>Follow us</span>
-                        <div className='grid grid-flow-col gap-4'>
+                        <div className='grid grid-flow-col gap-8 mt-4'>
                             <a>
                                 <svg
                                     xmlns='http://www.w3.org/2000/svg'
