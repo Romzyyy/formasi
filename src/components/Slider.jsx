@@ -5,7 +5,7 @@ import { Zoom } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 
 const Slider = () => {
-    const images = ['/banner.png', '/asd6.png', '/asd5.jpg']
+    const images = ['/slider1.jpeg', '/slider2.jpeg', '/slider3.jpeg']
 
     const zoomProperties = {
         scale: 1,
@@ -24,7 +24,7 @@ const Slider = () => {
                         key={index}
                         className='flex justify-center md:items-center items-start w-screen h-screen relative'>
                         <Image
-                            className='w-screen brightness-50 h-4/6 object-cover sm:h-screen'
+                            className='w-screen brightness-50 h-4/6 object-cover sm:h-screen '
                             alt='Slide Image'
                             src={each}
                             width={10000}

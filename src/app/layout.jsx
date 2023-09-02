@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
                 <main className='w-full m-auto'>
                     {/* <Navbar /> */}
                     {children}
-                    {/* <Footer /> */}
+                    <Footer />
                 </main>
             </body>
         </html>

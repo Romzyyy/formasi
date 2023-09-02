@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <div className=' bg-slate-900 text-zinc-500 w-full px-6'>
             <footer className='footer flex flex-col  container m-auto'>
-                <div className='flex flex-row mt-10'>
+                <div className='flex flex-row mt-8'>
                     <Image
                         src={'/logo.png'}
                         width={100}
