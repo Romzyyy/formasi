@@ -24,7 +24,7 @@ const Slider = () => {
                         key={index}
                         className='flex justify-center md:items-center items-start w-screen h-screen relative'>
                         <Image
-                            className='w-screen brightness-50 h-4/6 object-cover sm:h-screen '
+                            className='w-screen brightness-50 h-3/5 object-cover sm:h-screen '
                             alt='Slide Image'
                             src={each}
                             width={10000}
@@ -34,13 +34,13 @@ const Slider = () => {
                             <h1 className=' md:top-20 top-24 inset-x-1/4 text-center z-10 tracking-widest sm:text-7xl text-5xl font-extrabold mt-20'>
                                 FORMASI
                             </h1>
-                            <p className='top-40 inset-x-1/4 text-center z-10 sm:text-6xl font-bold text-4xl mt-4'>
+                            <p className='top-40 inset-x-1/4 text-center z-10 sm:text-6xl font-semibold text-4xl mt-4'>
                                 FORUM MAHASISWA SISTEM INFORMASI
                             </p>
-                            <p className=' md:top-56 top-20 inset-x-1/4 text-center z-10 md:text-6xl font-bold text-3xl  mt-4'>
+                            <p className=' md:top-56 top-20 inset-x-1/4 text-center z-10 md:text-6xl font-medium text-2xl  mt-1'>
                                 UNIBA MADURA
                             </p>
-                            <div className='mt-8 flex flex-row justify-center gap-x-8'>
+                            <div className='mt-4 flex flex-row justify-center gap-x-8'>
                                 <a>
                                     <svg
                                         xmlns='http://www.w3.org/2000/svg'

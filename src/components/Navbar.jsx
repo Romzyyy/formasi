@@ -5,7 +5,7 @@ import { useState } from 'react'
 export default function Navbar() {
     const [toggle, setToggle] = useState(false)
     return (
-        <div className='navbar-center h-12 flex items-center shadow-md shadow-slate-900 text-slate-50 fixed top-0 left-0 right-0 z-50 bg-opacity-90 backdrop-blur-sm bg-slate-900'>
+        <div className='navbar-center h-12 flex items-center text-slate-50 fixed top-0 left-0 right-0 z-50 bg-slate-900'>
             <div className='flex justify-between px-6 w-full'>
                 <div className='flex items-center cursor-pointer'>
                     <Image
@@ -40,7 +40,7 @@ export default function Navbar() {
                         />
                     </svg>
                     <div className={toggle ? 'block' : 'hidden'}>
-                        <div className='absolute bg-opacity-5 backdrop-blur-sm bg-white/90 w-40 p-4 right-3 top-full rounded-md font-medium shadow-md shadow-slate-400 text-slate-800'>
+                        <div className='absolute bg-opacity-5 backdrop-blur-sm bg-white/90 w-40 p-4 right-3 top-full rounded-md font-medium text-slate-800'>
                             <ul className='flex flex-col md:flex-row gap-2 md:gap-10 px-1 '>
                                 <li className='cursor-pointer hover:text-gray-400 transition'>
                                     <a href='/footer'>Home</a>
