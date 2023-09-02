@@ -1,6 +1,7 @@
 import About from '@/components/About'
 import Avatar from '@/components/Avatar'
 import Card from '@/components/Card'
+import Coba from '@/components/Coba'
 import Galery from '@/components/Galery'
 import Slider from '@/components/Slider'
 import Team from '@/components/Team'
@@ -46,7 +47,7 @@ export default function Home() {
                 <h1 className=' my-10 text-xl text-center font-semibold text-slate-800'>
                     Meet Our Team Members
                 </h1>
-                <Avatar />
+                <Coba />
             </div>
         </main>
     )
