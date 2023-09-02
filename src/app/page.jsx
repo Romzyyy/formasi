@@ -1,9 +1,8 @@
-import About from '@/components/About'
-import Avatar from '@/components/Avatar'
-import Card from '@/components/Card'
-import Coba from '@/components/Avatar'
-import Galery from '@/components/Galery'
 import Slider from '@/components/Slider'
+import About from '@/components/About'
+import Card from '@/components/Card'
+import Galery from '@/components/Galery'
+import Avatar from '@/components/Avatar'
 
 export default function Home() {
     return (
