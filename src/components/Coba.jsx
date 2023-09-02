@@ -58,6 +58,15 @@ export default function Coba() {
                     src='/asd4.jpg'
                 />
             </div>
+            <div className='w-36 h-36 mb-6'>
+                <Image
+                    className='ml-7 rounded-full h-full w-full object-cover border-4'
+                    alt='image'
+                    width={1000}
+                    height={1000}
+                    src='/asd4.jpg'
+                />
+            </div>
         </div>
     )
 }
