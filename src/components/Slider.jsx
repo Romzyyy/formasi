@@ -17,7 +17,7 @@ const Slider = () => {
     }
 
     return (
-        <div className='w-full h-screen'>
+        <div id='Home' className='w-full h-screen'>
             <Zoom {...zoomProperties}>
                 {images.map((each, index) => (
                     <div

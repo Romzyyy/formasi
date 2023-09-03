@@ -43,22 +43,22 @@ export default function Navbar() {
                         <div className='absolute bg-opacity-5 backdrop-blur-sm bg-white/90 w-40 p-4 right-3 top-full rounded-md font-medium text-slate-800'>
                             <ul className='flex flex-col md:flex-row gap-2 md:gap-10 px-1 '>
                                 <li className='cursor-pointer hover:text-gray-400 transition'>
-                                    <a href='/footer'>Home</a>
+                                    <a href='#Home'>Home</a>
                                 </li>
                                 <li className='cursor-pointer hover:text-gray-400 transition'>
-                                    <a>About</a>
+                                    <a href='#About'>About</a>
                                 </li>
                                 <li className='cursor-pointer hover:text-gray-400 transition'>
-                                    <a>News</a>
+                                    <a href='#News'>News</a>
                                 </li>
                                 <li className='cursor-pointer hover:text-gray-400 transition'>
-                                    <a>Gallery</a>
+                                    <a href='#Galery'>Gallery</a>
                                 </li>
                                 <li className='cursor-pointer hover:text-gray-400 transition'>
-                                    <a>Team</a>
+                                    <a href='#Team'>Team</a>
                                 </li>
                                 <li className='cursor-pointer hover:text-gray-400 transition'>
-                                    <a>Contact</a>
+                                    <a href='#Contact'>Contact</a>
                                 </li>
                             </ul>
                         </div>

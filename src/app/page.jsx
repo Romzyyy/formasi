@@ -9,7 +9,7 @@ export default function Home() {
         <main className='flex min-h-screen flex-col items-center justify-center'>
             <Slider />
             <About />
-            <div className='flex flex-col w-full mb-14 px-6 text-slate-800'>
+            <div id='News' className='flex flex-col w-full mb-14 px-6 text-slate-800'>
                 <h1 className='mb-4 text-xl font-semibold'>Information</h1>
                 <div className='grid grid-rows-4 gap-4'>
                     <Card

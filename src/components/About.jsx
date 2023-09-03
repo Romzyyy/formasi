@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className='mt-6 text-slate-800 w-full px-6'>
+        <div id="About" className='mt-6 text-slate-800 w-full px-6'>
             <p className='text-xl tracking-wide'>
                 <span className='font-semibold text-xl mr-2'>
                     Forum Mahasiswa Sistem Informasi

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Footer() {
     return (
-        <div className='w-full h-screen bg-slate-900 grid grid-cols-1 content-between px-6'>
+        <div id='Contact' className='w-full h-screen bg-slate-900 grid grid-cols-1 content-between px-6'>
             <div className='flex flex-col mt-4'>
                 <div className='flex flex-row'>
                     <Image
