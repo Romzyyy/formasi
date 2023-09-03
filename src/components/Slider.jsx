@@ -30,14 +30,14 @@ const Slider = () => {
                             width={10000}
                             height={10000}
                         />
-                        <div className='absolute px-6 top-10 inset-x-auto mt-56 bg-clip-text text-transparent bg-gradient-to-r from-slate-600 to-slate-100'>
-                            <h1 className='top-24 inset-x-1/4 text-center z-10 tracking-widest text-6xl font-extrabold mt-10'>
+                        <div className='absolute px-6 top-10 inset-x-auto mt-56 '>
+                            <h1 className='top-24 inset-x-1/4 text-center z-10 tracking-widest text-6xl font-extrabold mt-10 bg-clip-text text-transparent bg-gradient-to-r from-slate-400 to-slate-100'>
                                 FORMASI
                             </h1>
-                            <p className='top-40 inset-x-1/4 text-center z-10 font-bold text-3xl mt-2'>
+                            <p className='top-40 inset-x-1/4 text-center z-10 font-bold text-3xl mt-2 bg-clip-text text-transparent bg-gradient-to-l from-slate-400 to-slate-100'>
                                 FORUM MAHASISWA SISTEM INFORMASI
                             </p>
-                            <p className='  top-20 inset-x-1/4 text-center z-10  font-extrabold text-2xl mt-2'>
+                            <p className='  top-20 inset-x-1/4 text-center z-10  font-extrabold text-2xl mt-2 text-slate-50'>
                                 UNIBA MADURA
                             </p>
                             <div className='mt-44 flex flex-row justify-center gap-x-8 text-white'>
