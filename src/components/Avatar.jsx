@@ -8,7 +8,7 @@ export default function Avatar() {
             className=" flex flex-wrap justify-center px-6 sm:px-20 lg:px-36 2xl:px-80 "
         >
             <div className='my-2'>
-                <div className="m-2 my-2 h-28 w-28 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40">
+                <div className="m-1 my-2 h-24 w-24 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40">
                     <Image
                         className=" h-full w-full rounded-full object-cover"
                         alt="image"
@@ -17,11 +17,11 @@ export default function Avatar() {
                         src="/asd1.jpg"
                     />
                 </div>
-                <p className="text-center font-semibold md:text-xl">jhon doe</p>
+                <p className="text-center font-medium md:font-semibold md:text-xl">jhon doe</p>
                 <p className="text-center">ketua</p>
             </div>
             <div className='my-2'>
-                <div className="m-2 my-2 h-28 w-28 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40">
+                <div className="m-1 my-2 h-24 w-24 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40">
                     <Image
                         className=" h-full w-full rounded-full object-cover"
                         alt="image"
@@ -30,11 +30,11 @@ export default function Avatar() {
                         src="/asd1.jpg"
                     />
                 </div>
-                <p className="text-center font-semibold md:text-xl">jhon doe</p>
+                <p className="text-center font-medium md:font-semibold md:text-xl">jhon doe</p>
                 <p className="text-center">ketua</p>
             </div>
             <div className='my-2'>
-                <div className="m-2 my-2 h-28 w-28 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40">
+                <div className="m-1 my-2 h-24 w-24 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40">
                     <Image
                         className=" h-full w-full rounded-full object-cover"
                         alt="image"
@@ -43,11 +43,11 @@ export default function Avatar() {
                         src="/asd1.jpg"
                     />
                 </div>
-                <p className="text-center font-semibold md:text-xl">jhon doe</p>
+                <p className="text-center font-medium md:font-semibold md:text-xl">jhon doe</p>
                 <p className="text-center">ketua</p>
             </div>
             <div className='my-2'>
-                <div className="m-2 my-2 h-28 w-28 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40">
+                <div className="m-1 my-2 h-24 w-24 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40">
                     <Image
                         className=" h-full w-full rounded-full object-cover"
                         alt="image"
@@ -56,11 +56,11 @@ export default function Avatar() {
                         src="/asd1.jpg"
                     />
                 </div>
-                <p className="text-center font-semibold md:text-xl">jhon doe</p>
+                <p className="text-center font-medium md:font-semibold md:text-xl">jhon doe</p>
                 <p className="text-center">ketua</p>
             </div>
             <div className='my-2'>
-                <div className="m-2 my-2 h-28 w-28 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40">
+                <div className="m-1 my-2 h-24 w-24 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40">
                     <Image
                         className=" h-full w-full rounded-full object-cover"
                         alt="image"
@@ -69,7 +69,7 @@ export default function Avatar() {
                         src="/asd1.jpg"
                     />
                 </div>
-                <p className="text-center font-semibold md:text-xl">jhon doe</p>
+                <p className="text-center font-medium md:font-semibold md:text-xl">jhon doe</p>
                 <p className="text-center">ketua</p>
             </div>
 
