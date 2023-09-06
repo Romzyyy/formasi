@@ -5,11 +5,11 @@ export default function Avatar() {
     return (
         <div
             id="Team"
-            className=" flex flex-wrap justify-center justify-items-center px-6 sm:px-20 lg:px-36 2xl:px-80 "
+            className=" flex flex-wrap justify-between justify-items-center px-6 sm:px-20 lg:px-36 2xl:px-80 "
         >
             <div className="my-2 h-28 w-28 md:h-32 md:w-32 xl:h-40 xl:w-40 m-2">
                 <Image
-                    className=" h-full w-full rounded-full border-4 object-cover"
+                    className=" h-full w-full object-cover"
                     alt="image"
                     width={1000}
                     height={1000}
@@ -18,7 +18,7 @@ export default function Avatar() {
             </div>
             <div className="my-2  h-28 w-28 md:h-32 md:w-32 xl:h-40 xl:w-40 m-2">
                 <Image
-                    className=" h-full w-full rounded-full border-4 object-cover"
+                    className=" h-full w-full object-cover"
                     alt="image"
                     width={1000}
                     height={1000}
@@ -27,7 +27,7 @@ export default function Avatar() {
             </div>
             <div className="my-2  h-28 w-28 md:h-32 md:w-32 xl:h-40 xl:w-40 m-2">
                 <Image
-                    className="h-full w-full rounded-full border-4 object-cover"
+                    className="h-full w-full object-cover"
                     alt="image"
                     width={1000}
                     height={1000}
@@ -36,7 +36,7 @@ export default function Avatar() {
             </div>
             <div className=" my-2 h-28 w-28 md:h-32 md:w-32 xl:h-40 xl:w-40 m-2 ">
                 <Image
-                    className=" sm:ml-0 h-full w-full rounded-full border-4 object-cover"
+                    className=" sm:ml-0 h-full w-full object-cover"
                     alt="image"
                     width={1000}
                     height={1000}
@@ -45,7 +45,7 @@ export default function Avatar() {
             </div>
             <div className="my-2  h-28 w-28 md:h-32 md:w-32 xl:h-40 xl:w-40 m-2">
                 <Image
-                    className=" sm:ml-0 h-full w-full rounded-full border-4 object-cover"
+                    className=" sm:ml-0 h-full w-full object-cover"
                     alt="image"
                     width={1000}
                     height={1000}
@@ -54,7 +54,7 @@ export default function Avatar() {
             </div>
             <div className="my-2  h-28 w-28 md:h-32 md:w-32 xl:h-40 xl:w-40 m-2">
                 <Image
-                    className=" sm:ml-0 h-full w-full rounded-full border-4 object-cover"
+                    className=" sm:ml-0 h-full w-full object-cover"
                     alt="image"
                     width={1000}
                     height={1000}
@@ -63,7 +63,7 @@ export default function Avatar() {
             </div>
             <div className="my-2  h-28 w-28 md:h-32 md:w-32 xl:h-40 xl:w-40 m-2">
                 <Image
-                    className=" sm:ml-0 h-full w-full rounded-full border-4 object-cover"
+                    className=" sm:ml-0 h-full w-full object-cover"
                     alt="image"
                     width={1000}
                     height={1000}
