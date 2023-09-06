@@ -11,10 +11,10 @@ export default function Home() {
             <About />
             <div
                 id="News"
-                className="mb-14 flex w-full flex-col px-6 text-slate-800"
+                className="mb-14 flex w-full flex-col px-6 text-slate-800 sm:px-20 lg:px-36 2xl:px-80 "
             >
                 <h1 className="mb-4 text-xl font-semibold">Information</h1>
-                <div className="grid grid-rows-4 gap-4">
+                <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
                     <Card
                         title={'web developer'}
                         desc={
@@ -31,6 +31,18 @@ export default function Home() {
                         title={'Programmer'}
                         desc={
                             'Dikutip dari Techopedia, programmer adalah individu yang membuat software atau aplikasi komputer dengan memberikan instruksi pemrograman khusus di komputer.'
+                        }
+                    />
+                    <Card
+                        title={'System Engineer'}
+                        desc={
+                            'Profesi ini bertugas untuk merancang dan mengimplementasikan software untuk berbagai informasi dan aplikasi berbasis teknologi serta prosedur pengujian untuk sistem internal'
+                        }
+                    />
+                    <Card
+                        title={'System Engineer'}
+                        desc={
+                            'Profesi ini bertugas untuk merancang dan mengimplementasikan software untuk berbagai informasi dan aplikasi berbasis teknologi serta prosedur pengujian untuk sistem internal'
                         }
                     />
                     <Card

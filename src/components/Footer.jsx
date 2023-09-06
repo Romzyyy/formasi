@@ -4,9 +4,9 @@ export default function Footer() {
     return (
         <div
             id='Contact'
-            className='w-full h-screen bg-slate-900 grid grid-cols-1 content-between px-6'>
+            className='w-full h-screen bg-slate-900 grid grid-cols-1 content-between px-6 sm:px-20 lg:px-36 2xl:px-80 sm:h-1/3 '>
             <div className='flex flex-col mt-4'>
-                <div className='flex flex-row'>
+                <div className='flex flex-row sm:mb-10'>
                     <Image
                         src={'/logo.png'}
                         width={100}
@@ -18,7 +18,7 @@ export default function Footer() {
                         <p className='text-sm'>forum sistem informasi</p>
                     </div>
                 </div>
-                <div className='flex flex-col space-y-12 w-full mt-12 text-slate-200'>
+                <div className='flex flex-col lg:flex-row space-y-12 lg:space-y-0 sm:mt-0 w-full mt-12 lg:justify-between text-slate-200'>
                     <div className='flex flex-col'>
                         <span className='footer-title'>Alamat</span>
                         <a className='link link-hover'>jl. batuan no.10</a>
@@ -71,7 +71,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className='mb-4'>
-                <p className='text-slate-300 text-center'>
+                <p className='text-slate-300 text-center sm:mt-10'>
                     Copyright © 2023 - All right reserved by web developer
                     formasi
                 </p>
