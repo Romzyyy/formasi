@@ -4,69 +4,70 @@ import React from 'react'
 export default function Avatar() {
     return (
         <div
-            id='Team'
-            className=' flex justify-center flex-wrap px-6 -space-x-14 justify-items-center '>
-            <div className='w-36 h-36 mb-6'>
+            id="Team"
+            className=" flex flex-wrap justify-center justify-items-center -space-x-14 px-6 "
+        >
+            <div className="mb-6 h-36 w-36">
                 <Image
-                    className=' rounded-full h-full w-full object-cover border-4'
-                    alt='image'
+                    className=" h-full w-full rounded-full border-4 object-cover"
+                    alt="image"
                     width={1000}
                     height={1000}
-                    src='/asd1.jpg'
+                    src="/asd1.jpg"
                 />
             </div>
-            <div className='w-36 h-36 mb-6'>
+            <div className="mb-6 h-36 w-36">
                 <Image
-                    className=' rounded-full h-full w-full object-cover border-4'
-                    alt='image'
+                    className=" h-full w-full rounded-full border-4 object-cover"
+                    alt="image"
                     width={1000}
                     height={1000}
-                    src='/asd2.jpg'
+                    src="/asd2.jpg"
                 />
             </div>
-            <div className='w-36 h-36 mb-6'>
+            <div className="mb-6 h-36 w-36">
                 <Image
-                    className='rounded-full h-full w-full object-cover border-4'
-                    alt='image'
+                    className="h-full w-full rounded-full border-4 object-cover"
+                    alt="image"
                     width={1000}
                     height={1000}
-                    src='/asd3.jpg'
+                    src="/asd3.jpg"
                 />
             </div>
-            <div className=' w-36 h-36 mb-6 '>
+            <div className=" mb-6 h-36 w-36 ">
                 <Image
-                    className='ml-7 rounded-full h-full w-full object-cover border-4'
-                    alt='image'
+                    className="ml-7 h-full w-full rounded-full border-4 object-cover"
+                    alt="image"
                     width={1000}
                     height={1000}
-                    src='/asd4.jpg'
+                    src="/asd4.jpg"
                 />
             </div>
-            <div className='w-36 h-36 mb-6'>
+            <div className="mb-6 h-36 w-36">
                 <Image
-                    className='ml-7 rounded-full h-full w-full object-cover border-4'
-                    alt='image'
+                    className="ml-7 h-full w-full rounded-full border-4 object-cover"
+                    alt="image"
                     width={1000}
                     height={1000}
-                    src='/asd4.jpg'
+                    src="/asd4.jpg"
                 />
             </div>
-            <div className='w-36 h-36 mb-6'>
+            <div className="mb-6 h-36 w-36">
                 <Image
-                    className='ml-7 rounded-full h-full w-full object-cover border-4'
-                    alt='image'
+                    className="ml-7 h-full w-full rounded-full border-4 object-cover"
+                    alt="image"
                     width={1000}
                     height={1000}
-                    src='/asd4.jpg'
+                    src="/asd4.jpg"
                 />
             </div>
-            <div className='w-36 h-36 mb-6'>
+            <div className="mb-6 h-36 w-36">
                 <Image
-                    className='ml-7 rounded-full h-full w-full object-cover border-4'
-                    alt='image'
+                    className="ml-7 h-full w-full rounded-full border-4 object-cover"
+                    alt="image"
                     width={1000}
                     height={1000}
-                    src='/asd4.jpg'
+                    src="/asd4.jpg"
                 />
             </div>
         </div>

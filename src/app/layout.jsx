@@ -3,7 +3,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 
-const inter = Inter({ subsets:  ['latin']})
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
     title: 'FORMASI UNIBA',
@@ -18,10 +18,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang='en' data-theme='garden' className='scroll-smooth'>
-            <link rel='icon' href='/logo.png' type='image/png' sizes='32x32' />
+        <html lang="en" data-theme="garden" className="scroll-smooth">
+            <link rel="icon" href="/logo.png" type="image/png" sizes="32x32" />
             <body className={inter.className}>
-                <main className='w-full m-auto'>
+                <main className="m-auto w-full">
                     <Navbar />
                     {children}
                     <Footer />

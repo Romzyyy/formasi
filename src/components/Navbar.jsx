@@ -5,33 +5,59 @@ import { useState } from 'react'
 export default function Navbar() {
     const [toggle, setToggle] = useState(false)
     return (
-        <div className='navbar-center h-12 flex items-center text-slate-50 fixed top-0 left-0 right-0 z-50 bg-slate-900'>
-            <div className='flex justify-between px-6 w-full'>
-                <div className='flex items-center cursor-pointer'>
+        <div className="navbar-center fixed left-0 right-0 top-0 z-50 flex h-12 items-center bg-slate-900 text-slate-50">
+            <div className="flex w-full justify-between items-center px-6  sm:px-12 lg:px-24 2xl:px-80 ">
+                <div className="flex cursor-pointer items-center">
                     <Image
                         src={'/logo.png'}
                         width={100}
                         height={100}
-                        className='w-8 h-8'
+                        className="h-8 w-8"
                     />
-                    <div className='sm:flex flex-col ml-2 hidden'>
-                        <a className='text-lg font-bold'>FORMASI</a>
-                        <a className='text-sm'>forum sistem informasi</a>
+                    <div className="ml-2 hidden flex-col sm:flex">
+                        <a className="text-lg font-bold">FORMASI</a>
+                        <a className="text-sm">forum sistem informasi</a>
+                    </div>
+                </div>
+                <div className='hidden lg:block'>
+                    <div className="w-full rounded-md font-medium text-slate-50">
+                        <ul className="flex flex-col gap-2 px-1 md:flex-row md:gap-10 ">
+                            <li className="cursor-pointer transition hover:text-gray-400">
+                                <a href="#Home">Home</a>
+                            </li>
+                            <li className="cursor-pointer transition hover:text-gray-400">
+                                <a href="#About">About</a>
+                            </li>
+                            <li className="cursor-pointer transition hover:text-gray-400">
+                                <a href="#News">News</a>
+                            </li>
+                            <li className="cursor-pointer transition hover:text-gray-400">
+                                <a href="#Galery">Gallery</a>
+                            </li>
+                            <li className="cursor-pointer transition hover:text-gray-400">
+                                <a href="#Team">Team</a>
+                            </li>
+                            <li className="cursor-pointer transition hover:text-gray-400">
+                                <a href="#Contact">Contact</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div
-                    className='cursor-pointer transition'
-                    onClick={() => setToggle(toggle ? false : true)}>
+                    className="cursor-pointer transition lg:hidden"
+                    onClick={() => setToggle(toggle ? false : true)}
+                >
                     <svg
-                        xmlns='http://www.w3.org/2000/svg'
-                        fill='none'
-                        viewBox='0 0 24 24'
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
                         strokeWidth={2}
-                        stroke='currentColor'
-                        className='w-8 h-8'>
+                        stroke="currentColor"
+                        className="h-8 w-8"
+                    >
                         <path
-                            strokeLinecap='round'
-                            strokeLinejoin='round'
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                             d={
                                 toggle
                                     ? 'M6 18L18 6M6 6l12 12'
@@ -39,26 +65,26 @@ export default function Navbar() {
                             }
                         />
                     </svg>
-                    <div className={toggle ? 'block' : 'hidden'}>
-                        <div className='absolute bg-opacity-5 backdrop-blur-sm bg-white/90 w-40 p-4 right-3 top-full rounded-md font-medium text-slate-800'>
-                            <ul className='flex flex-col md:flex-row gap-2 md:gap-10 px-1 '>
-                                <li className='cursor-pointer hover:text-gray-400 transition'>
-                                    <a href='#Home'>Home</a>
+                    <div className={`${toggle ? 'block' : 'hidden'} lg:hidden`}>
+                        <div className="absolute right-3 top-full w-40 rounded-md bg-white/90 bg-opacity-5 p-4 font-medium text-slate-800 backdrop-blur-sm">
+                            <ul className="flex flex-col gap-2 px-1 md:flex-row md:gap-10 ">
+                                <li className="cursor-pointer transition hover:text-gray-400">
+                                    <a href="#Home">Home</a>
                                 </li>
-                                <li className='cursor-pointer hover:text-gray-400 transition'>
-                                    <a href='#About'>About</a>
+                                <li className="cursor-pointer transition hover:text-gray-400">
+                                    <a href="#About">About</a>
                                 </li>
-                                <li className='cursor-pointer hover:text-gray-400 transition'>
-                                    <a href='#News'>News</a>
+                                <li className="cursor-pointer transition hover:text-gray-400">
+                                    <a href="#News">News</a>
                                 </li>
-                                <li className='cursor-pointer hover:text-gray-400 transition'>
-                                    <a href='#Galery'>Gallery</a>
+                                <li className="cursor-pointer transition hover:text-gray-400">
+                                    <a href="#Galery">Gallery</a>
                                 </li>
-                                <li className='cursor-pointer hover:text-gray-400 transition'>
-                                    <a href='#Team'>Team</a>
+                                <li className="cursor-pointer transition hover:text-gray-400">
+                                    <a href="#Team">Team</a>
                                 </li>
-                                <li className='cursor-pointer hover:text-gray-400 transition'>
-                                    <a href='#Contact'>Contact</a>
+                                <li className="cursor-pointer transition hover:text-gray-400">
+                                    <a href="#Contact">Contact</a>
                                 </li>
                             </ul>
                         </div>

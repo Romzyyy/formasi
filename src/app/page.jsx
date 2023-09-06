@@ -6,12 +6,15 @@ import Avatar from '@/components/Avatar'
 
 export default function Home() {
     return (
-        <main className='flex min-h-screen flex-col items-center justify-center'>
+        <main className="flex min-h-screen flex-col items-center justify-center">
             <Slider />
             <About />
-            <div id='News' className='flex flex-col w-full mb-14 px-6 text-slate-800'>
-                <h1 className='mb-4 text-xl font-semibold'>Information</h1>
-                <div className='grid grid-rows-4 gap-4'>
+            <div
+                id="News"
+                className="mb-14 flex w-full flex-col px-6 text-slate-800"
+            >
+                <h1 className="mb-4 text-xl font-semibold">Information</h1>
+                <div className="grid grid-rows-4 gap-4">
                     <Card
                         title={'web developer'}
                         desc={
@@ -39,8 +42,8 @@ export default function Home() {
                 </div>
             </div>
             <Galery />
-            <div className=' w-full pb-10'>
-                <h1 className=' my-10 text-xl text-center font-semibold text-slate-800'>
+            <div className=" w-full pb-10">
+                <h1 className=" my-10 text-center text-xl font-semibold text-slate-800">
                     Meet Our Team Members
                 </h1>
                 <Avatar />
