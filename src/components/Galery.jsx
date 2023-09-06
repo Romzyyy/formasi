@@ -6,7 +6,7 @@ export default function Galery() {
             id="Galery"
             className="relative flex w-full flex-col bg-slate-900 px-6 sm:px-20 lg:px-36 2xl:px-80 "
         >
-            <h1 className="my-6 cursor-pointer text-xl font-semibold text-slate-200 hover:text-slate-50">
+            <h1 className="my-6 cursor-pointer text-xl md:text-3xl font-semibold text-slate-200 hover:text-slate-50">
                 Galery
             </h1>
             <div className="flex flex-row">

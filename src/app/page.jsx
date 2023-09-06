@@ -13,7 +13,7 @@ export default function Home() {
                 id="News"
                 className="mb-14 flex w-full flex-col px-6 text-slate-800 sm:px-20 lg:px-36 2xl:px-80 "
             >
-                <h1 className="mb-4 text-xl font-semibold">Information</h1>
+                <h1 className="mb-4 text-xl md:text-2xl font-semibold">Information</h1>
                 <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
                     <Card
                         title={'web developer'}
@@ -55,7 +55,7 @@ export default function Home() {
             </div>
             <Galery />
             <div className=" w-full pb-10">
-                <h1 className=" my-10 text-center text-xl font-semibold text-slate-800">
+                <h1 className=" my-10 text-center text-xl md:text-2xl font-semibold text-slate-800">
                     Meet Our Team Members
                 </h1>
                 <Avatar />
