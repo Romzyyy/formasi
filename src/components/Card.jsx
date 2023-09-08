@@ -1,4 +1,4 @@
-import { info } from "autoprefixer";
+
 
 async function getInfo() {
   const res = await fetch("http://localhost:5000/news");
