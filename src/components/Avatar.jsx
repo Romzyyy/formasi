@@ -1,26 +1,58 @@
 import Image from "next/image";
 import React from "react";
 
-async function getAvatars() {
-  const res = await fetch("http://localhost:5000/avatar");
-  return res.json();
-}
+const avatar = [
+  {
+    name: "Rachel Miller",
+    jobtitle: "Ketua",
+    src: "/asd1.jpg"
+  },
+  {
+    name: "Ethan Turner",
+    jobtitle: "Wakil",
+    src: "/asd2.jpg"
+  },
+  {
+    name: "Olivia Walker",
+    jobtitle: "Sekretaris",
+    src: "/asd3.jpg"
+  },
+  {
+    name: "Jackson Bennett",
+    jobtitle: "Bendahara",
+    src: "/asd4.jpg"
+  },
+  {
+    name: "Sophia Mitchell",
+    jobtitle: "Koordinator",
+    src: "/slider1.jpeg"
+  },
+  {
+    name: "Liam Anderson",
+    jobtitle: "TIM Kreative",
+    src: "/slider2.jpeg"
+  },
+  {
+    name: "Ava Collins",
+    jobtitle: "TIM IT",
+    src: "/slider3.jpeg"
+  }
+]
 
 export default async function Avatar() {
-  const avatar = await getAvatars();
   return (
-    <div className=" w-full pb-10">
+    <div id="Team" className=" w-full pb-10">
       <h1 className=" my-10 text-center text-xl md:text-2xl font-semibold text-slate-800">
         Meet Our Team Members
       </h1>
       <div
-        id="Team"
+        
         className=" flex flex-wrap justify-center px-6 sm:px-20 lg:px-36 2xl:px-80 "
       >
-        {avatar.map((avatars, index) => (
+        {avatar.map((item) => (
           <div
-            key={avatars.id}
-            className="my-2 flex flex-col mx-4 justify-items-center w-24"
+            key={item.name}
+            className="my-2 flex flex-col mx-4 justify-items-center w-24 md:w-44 xl:w-52"
           >
             <div className="my-2  h-24 w-24 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40 ">
               <Image
@@ -28,13 +60,13 @@ export default async function Avatar() {
                 alt="image"
                 width={1000}
                 height={1000}
-                src={avatars.src}
+                src={item.src}
               />
             </div>
             <p className="text-center font-medium md:font-semibold md:text-xl">
-              {avatars.name}
+              {item.name}
             </p>
-            <p className="text-center">{avatars.jobtitle}</p>
+            <p className="text-center">{item.jobtitle}</p>
           </div>
         ))}
       </div>

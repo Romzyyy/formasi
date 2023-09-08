@@ -1,12 +1,16 @@
 import Image from "next/image";
 
-async function getImages() {
-  const res = await fetch("http://localhost:5000/images");
-  return res.json();
-}
+const images = [
+  { title: "image", src: "/asd1.jpg" },
+  { title: "image", src: "/asd2.jpg" },
+  { title: "image", src: "/asd3.jpg" },
+  { title: "image", src: "/asd4.jpg" },
+  { title: "image", src: "/slider1.jpeg" },
+  { title: "image", src: "/slider2.jpeg" },
+  { title: "image", src: "/slider3.jpeg" },
+];
 
 export default async function Galery() {
-  const images = await getImages();
   return (
     <div
       id="Galery"
@@ -17,9 +21,9 @@ export default async function Galery() {
       </h1>
       <div className="flex flex-row">
         <div className="mb-10 columns-2 md:columns-3 lg:columns-4">
-          {images.map((image, index) => (
+          {images.map((image) => (
             <Image
-              key={image.id}
+              key={image.title}
               src={image.src}
               alt={image.title}
               width={1000}
