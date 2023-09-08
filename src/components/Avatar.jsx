@@ -41,8 +41,8 @@ const avatar = [
 
 export default async function Avatar() {
   return (
-    <div id="Team" className=" w-full pb-10">
-      <h1 className=" my-10 text-center text-xl md:text-2xl font-semibold text-slate-800">
+    <div id="Team" className=" w-full pb-20 md:pb-10">
+      <h1 className=" my-20 md:my-10 text-center text-xl md:text-3xl font-semibold text-slate-800">
         Meet Our Team Members
       </h1>
       <div
@@ -52,9 +52,9 @@ export default async function Avatar() {
         {avatar.map((item) => (
           <div
             key={item.name}
-            className="my-2 flex flex-col mx-4 justify-items-center w-24 md:w-44 xl:w-52"
+            className="my-2 flex flex-col mx-8 justify-center justify-items-center w-28 md:w-44 xl:w-52"
           >
-            <div className="my-2  h-24 w-24 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40 ">
+            <div className="my-2 mx-auto  h-24 w-24 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40 ">
               <Image
                 className=" h-full w-full rounded-full object-cover"
                 alt="image"

@@ -26,7 +26,7 @@ export default async function Card() {
       id="Information"
       className="mb-14 flex w-full flex-col px-6 text-slate-800 sm:px-20 lg:px-36 2xl:px-80 "
     >
-      <h1 className="mb-4 text-xl md:text-2xl font-semibold">Information</h1>
+      <h1 className="mb-4 text-xl md:text-3xl font-semibold">Information</h1>
       <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
         {information.map((info) => (
           <div className="card w-full bg-gray-300 bg-opacity-25 text-slate-800 hover:shadow-xl ">
