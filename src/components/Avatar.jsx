@@ -47,14 +47,14 @@ export default async function Avatar() {
       </h1>
       <div
         
-        className=" flex flex-wrap justify-center px-6 sm:px-20 lg:px-36 2xl:px-80 "
+        className=" flex flex-wrap  justify-center px-6 sm:px-20 lg:px-36 2xl:px-80 "
       >
         {avatar.map((item) => (
           <div
             key={item.name}
-            className="my-2 flex flex-col mx-8 justify-center justify-items-center w-28 md:w-44 xl:w-52"
+            className="my-2 mx-2 justify-center justify-items-center w-28 md:w-44 xl:w-52"
           >
-            <div className="my-2 mx-auto  h-24 w-24 md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40 ">
+            <div className="my-2 mx-auto  h-24 w-24  md:mx-6 md:h-32 md:w-32 xl:h-40 xl:w-40 ">
               <Image
                 className=" h-full w-full rounded-full object-cover"
                 alt="image"
