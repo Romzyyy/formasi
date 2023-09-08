@@ -47,7 +47,7 @@ export default async function Avatar() {
       </h1>
       <div
         
-        className=" flex flex-wrap  justify-between px-6 sm:px-20 lg:px-36 2xl:px-80 "
+        className=" flex flex-wrap  justify-around px-6 sm:px-20 lg:px-36 2xl:px-80 "
       >
         {avatar.map((item) => (
           <div
