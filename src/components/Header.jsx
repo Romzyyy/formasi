@@ -1,7 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
-
-
 
 export default function Dashboard() {
   return (
@@ -17,7 +14,6 @@ export default function Dashboard() {
                 <Image className='object-cover object-top h-full rounded-full' src={"/asd1.jpg"} width={100} height={100}/>
             </div>
         </div>
-
     </div>
   )
 }

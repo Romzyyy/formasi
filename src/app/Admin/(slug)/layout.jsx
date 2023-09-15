@@ -1,5 +1,6 @@
 import Bottombar from "@/components/Bottombar";
-import "./../globals.css";
+import Header from "@/components/Header"
+import "../../globals.css";
 
 export const metadata = {
   title: "Dashboard admin",
@@ -13,7 +14,11 @@ export const metadata = {
 };
 
 export default function DashboarLayout({ children }) {
-  return <main>{children}
-  <Bottombar/>
-  </main>;
+  return (
+    <main>
+      <Header/>
+      {children}
+      <Bottombar />
+    </main>
+  );
 }

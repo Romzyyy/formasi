@@ -1,6 +1,7 @@
+import Link from "next/link";
 import React from "react";
 const navigationSide = [
-  { name: "Home", href: "Home" },
+  { name: "Home", href: "Dashboard" },
   { name: "Profile", href: "Profile" },
   { name: "Information", href: "Information" },
   { name: "Galery", href: "Galery" },
@@ -14,7 +15,7 @@ export default function Bottombar() {
         <ul className="flex gap-1">
           {navigationSide.map((item) => (
             <li key={item.name} className=" rounded-full cursor-pointer py-1 px-2 border border-slate-300">
-              <a  href={item.href}>{item.name}</a>
+              <Link  href={item.href}>{item.name}</Link>
             </li>
           ))}
         </ul>
