@@ -1,3 +1,4 @@
+import Bottombar from "@/components/Bottombar";
 import "./../globals.css";
 
 export const metadata = {
@@ -12,5 +13,7 @@ export const metadata = {
 };
 
 export default function DashboarLayout({ children }) {
-  return <main>{children}</main>;
+  return <main>{children}
+  <Bottombar/>
+  </main>;
 }

@@ -1,13 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const navigationSide = [
-    { name: "Home", href: "Home" },
-    { name: "Profile", href: "Profile" },
-    { name: "Information", href: "Information" },
-    { name: "Galery", href: "Galery" },
-    { name: "Team", href: "Team" },
-  ];
+
 
 export default function Dashboard() {
   return (
@@ -23,20 +17,7 @@ export default function Dashboard() {
                 <Image className='object-cover object-top h-full rounded-full' src={"/asd1.jpg"} width={100} height={100}/>
             </div>
         </div>
-        <div className='flex'>
-            <div className='w-1/3 bg-slate-50 h-screen'>
-                <ul className='flex flex-col gap-4 cursor-pointer mx-4 mt-4 '>
-                    {navigationSide.map((item)=>(
-                       <li key={item.name} className=' p-2 rounded-md active:bg-slate-100'>
-                        <a href={item.href}>{item.name}</a>
-                       </li>
-                    ))}
-                </ul>
-            </div>
-            <div className='mt-32 mx-auto'>
-                <h1 className='font-bold text-3xl'>WELCOMEBACK</h1>
-            </div>
-        </div>
+
     </div>
   )
 }
