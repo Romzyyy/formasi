@@ -9,12 +9,12 @@ const navigationSide = [
 
 export default function Bottombar() {
   return (
-    <div className="fixed bottom-0 w-screen mt-20 bg-red-500">
-      <div className=" flex justify-evenly items-center w-screen bg-slate-50 h-20">
-        <ul className="flex  gap-2">
+    <div className="fixed bottom-0 w-screen">
+      <div className=" flex justify-evenly items-center bg-slate-50 h-fit p-4 ">
+        <ul className="flex gap-1">
           {navigationSide.map((item) => (
-            <li key={item.name} className=" rounded-full cursor-pointer py-2 px-3 border border-slate-300">
-              <a href={item.href}>{item.name}</a>
+            <li key={item.name} className=" rounded-full cursor-pointer py-1 px-2 border border-slate-300">
+              <a  href={item.href}>{item.name}</a>
             </li>
           ))}
         </ul>
