@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export default function page() {
+export default function Dashboard() {
   return (
-    <div>page Dashboard</div>
-  )
+    <div className="flex min-h-screen justify-center mt-20">
+      <h1>welcome to Dashboard page</h1>
+    </div>
+  );
 }
