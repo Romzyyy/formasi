@@ -4,14 +4,14 @@ export default function Footer() {
     return (
         <div
             id='Contact'
-            className='w-full h-screen bg-slate-900 grid grid-cols-1 content-between px-6 sm:px-20 lg:px-36 2xl:px-80 sm:h-1/3 '>
+            className='w-full h-screen bg-slate-900 grid grid-cols-1 content-between px-6 sm:px-20 lg:px-36 sm:h-1/3 '>
             <div className='flex flex-col mt-4'>
                 <div className='flex flex-row sm:mb-10'>
                     <Image
                         src={'/logo.png'}
                         width={100}
                         height={100}
-                        className='w-8 h-8 cursor-pointer'
+                        className='w-10 h-10 cursor-pointer'
                     />
                     <div className='flex flex-col ml-2 cursor-pointer text-slate-50'>
                         <p className='text-xs font-bold'>FORMASI</p>
@@ -20,22 +20,22 @@ export default function Footer() {
                 </div>
                 <div className='flex flex-col lg:flex-row space-y-12 lg:space-y-0 sm:mt-0 w-full mt-12 lg:justify-between text-slate-200'>
                     <div className='flex flex-col'>
-                        <span className='footer-title'>Alamat</span>
+                        <span className='footer-title text-base'>Alamat</span>
                         <a className='link link-hover'>jl. batuan no.10</a>
                     </div>
                     <div className='flex flex-col'>
-                        <span className='footer-title'>Contact Us</span>
+                        <span className='footer-title text-base'>Contact Us</span>
                         <a className='link link-hover'>
                             formasiuniba@gamil.com
                         </a>
                     </div>
                     <div className='flex flex-col'>
-                        <span className='footer-title'>Support Us</span>
+                        <span className='footer-title text-base'>Support Us</span>
                         <a className='link link-hover'>bit.ly/suportweare</a>
                     </div>
                     <div>
-                        <span className='footer-title'>Follow us</span>
-                        <div className='flex flex-row gap-10 mt-4'>
+                        <span className='footer-title text-base'>Follow us</span>
+                        <div className='flex flex-row gap-10 mt-2'>
                             <a href=''>
                                 <svg
                                     xmlns='http://www.w3.org/2000/svg'

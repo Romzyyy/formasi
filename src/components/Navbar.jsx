@@ -15,7 +15,7 @@ export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="navbar-center fixed left-0 right-0 top-0 z-50 flex h-12 lg:h-14 items-center bg-slate-900 text-slate-50">
-      <div className="flex w-full justify-between items-center px-6  sm:px-20 lg:px-32 2xl:px-80 ">
+      <div className="flex w-full justify-between items-center px-6  sm:px-20 lg:px-32">
         <div className="flex cursor-pointer items-center">
           <Image
             src={"/logo.png"}
