@@ -14,17 +14,18 @@ const navigation = [
 export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="navbar-center fixed left-0 right-0 top-0 z-50 flex h-12 lg:h-14 items-center bg-slate-900 text-slate-50">
+    <div className="navbar-center fixed left-0 right-0 top-0 z-50 flex h-12 items-center bg-slate-800 text-slate-50">
       <div className="flex w-full justify-between items-center px-6  sm:px-20 lg:px-32">
         <div className="flex cursor-pointer items-center">
           <Image
             src={"/logo.png"}
+            alt="logo"
             width={100}
             height={100}
             className="h-8 w-8"
           />
           <div className="ml-2 hidden flex-col sm:flex">
-            <a className="text-lg font-bold">FORMASI</a>
+            <a className="font-bold">FORMASI</a>
             <a className="text-sm">forum sistem informasi</a>
           </div>
         </div>

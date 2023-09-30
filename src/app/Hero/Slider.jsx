@@ -25,13 +25,13 @@ const Slider = () => {
             className="flex h-screen w-screen items-center justify-center"
           >
             <Image
-              className="h-screen w-screen object-cover brightness-50"
-              alt="Slide Image"
+              className=" object-cover brightness-50"
+              alt="SlideImage"
               src={each}
               width={10000}
               height={10000}
             />
-            <div className="absolute right-0 h-full w-full  bg-no-repeat" style={{backgroundImage: `url('/baground.png')`}}>
+            <div className="absolute right-0 h-full w-full  bg-no-repeat" style={{backgroundImage: `url('image/baground.png')`}}>
               <h1 className="z-10 pt-60 bg-gradient-to-r from-slate-400 to-slate-100 bg-clip-text text-center text-6xl sm:text-7xl lg:text-8xl font-extrabold tracking-widest text-transparent">
                 FORMASI
               </h1>

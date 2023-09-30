@@ -9,6 +9,7 @@ export default function Footer() {
                 <div className='flex flex-row sm:mb-10'>
                     <Image
                         src={'/logo.png'}
+                        alt='logo'
                         width={100}
                         height={100}
                         className='w-10 h-10 cursor-pointer'

@@ -26,19 +26,14 @@ export default async function Card() {
       id="Information"
       className="mb-14 flex w-full flex-col px-6 text-slate-800 sm:px-20 lg:px-36 "
     >
-      <h1 className="mb-4 mt-14 text-2xl font-bold">Information</h1>
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
+      <h1 className="mb-4 mt-14 text-2xl text-center font-bold">Fasilitas</h1>
+      <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
         {information.map((info) => (
-          <div className="card w-full bg-gray-300 bg-opacity-25 text-slate-800 hover:shadow-xl ">
+          <div className="card w-full bg-gray-300 shadow-sm bg-opacity-25 text-slate-800">
             <div key={info.title} className="card-body rounded-md">
               <h2 className="card-title text-base">{info.title}</h2>
               <div className="bg-blue- h-24 w-full overflow-hidden">
                 <p>{info.content}</p>
-              </div>
-              <div className="card-actions w-fit">
-                <p className="cursor-pointer font-medium underline transition hover:text-gray-500">
-                  Selengkapnya
-                </p>
               </div>
             </div>
           </div>
