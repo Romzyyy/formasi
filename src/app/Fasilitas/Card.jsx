@@ -29,7 +29,7 @@ export default async function Card() {
       <h1 className="mb-4 mt-14 text-2xl text-center font-bold">Fasilitas</h1>
       <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
         {information.map((info) => (
-          <div className="card w-full bg-gray-300 shadow-sm bg-opacity-25 text-slate-800">
+          <div className="card w-full bg-gray-300 shadow-md bg-opacity-25 text-slate-800">
             <div key={info.title} className="card-body rounded-md">
               <h2 className="card-title text-base">{info.title}</h2>
               <div className="bg-blue- h-24 w-full overflow-hidden">
