@@ -5,37 +5,37 @@ const avatar = [
   {
     name: "Rachel Miller",
     jobtitle: "Ketua",
-    src: "/image/asd1.jpg"
+    src: "/image/asd1.webp"
   },
   {
     name: "Ethan Turner",
     jobtitle: "Wakil",
-    src: "/image/asd2.jpg"
+    src: "/image/asd2.webp"
   },
   {
     name: "Olivia Walker",
     jobtitle: "Sekretaris",
-    src: "/image/asd3.jpg"
+    src: "/image/asd3.webp"
   },
   {
     name: "Jackson Bennett",
     jobtitle: "Bendahara",
-    src: "/image/asd4.jpg"
+    src: "/image/asd4.webp"
   },
   {
     name: "Sophia Mitchell",
     jobtitle: "Koordinator",
-    src: "/image/slider1.jpeg"
+    src: "/image/slider1.webp"
   },
   {
     name: "Liam Anderson",
     jobtitle: "TIM Kreative",
-    src: "/image/slider2.jpeg"
+    src: "/image/slider2.webp"
   },
   {
     name: "Ava Collins",
     jobtitle: "TIM IT",
-    src: "/image/slider3.jpeg"
+    src: "/image/slider3.webp"
   }
 ]
 

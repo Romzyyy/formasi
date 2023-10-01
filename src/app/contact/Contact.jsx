@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Contact() {
   return (
     <div id="Contact" className="px-6 text-slate-800 sm:px-20 lg:px-36 mb-12">

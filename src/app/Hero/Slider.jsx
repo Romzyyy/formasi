@@ -5,7 +5,7 @@ import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
 const Slider = () => {
-  const images = ["/slider1.jpeg", "/slider2.jpeg", "/slider3.jpeg"];
+  const images = ["/image/slider1.webp", "/image/slider2.webp", "/image/slider3.webp"];
 
   const zoomProperties = {
     scale: 1,
@@ -31,7 +31,7 @@ const Slider = () => {
               width={10000}
               height={10000}
             />
-            <div className="absolute right-0 h-full w-full  bg-no-repeat" style={{backgroundImage: `url('image/baground.png')`}}>
+            <div className="absolute right-0 h-full w-full  bg-no-repeat" style={{backgroundImage: `url('image/baground.webp')`}}>
               <h1 className="z-10 pt-60 bg-gradient-to-r from-slate-400 to-slate-100 bg-clip-text text-center text-6xl sm:text-7xl lg:text-8xl font-extrabold tracking-widest text-transparent">
                 FORMASI
               </h1>

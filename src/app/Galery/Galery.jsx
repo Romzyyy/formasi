@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 const images = [
-  { title: "image1", src: "/image/slider2.jpeg" },
-  { title: "image2", src: "/image/slider1.jpeg" },
-  { title: "image3", src: "/image/slider2.jpeg" },
-  { title: "image4", src: "/image/slider3.jpeg" },
-  { title: "image5", src: "/image/slider1.jpeg" },
-  { title: "image6", src: "/image/slider2.jpeg" },
-  { title: "image7", src: "/image/slider3.jpeg" },
-  { title: "image8", src: "/image/slider2.jpeg" },
+  { title: "image1", src: "/image/slider2.webp" },
+  { title: "image2", src: "/image/slider1.webp" },
+  { title: "image3", src: "/image/slider2.webp" },
+  { title: "image4", src: "/image/slider3.webp" },
+  { title: "image5", src: "/image/slider1.webp" },
+  { title: "image6", src: "/image/slider2.webp" },
+  { title: "image7", src: "/image/slider3.webp" },
+  { title: "image8", src: "/image/slider2.webp" },
 ];
 
 export default async function Galery() {

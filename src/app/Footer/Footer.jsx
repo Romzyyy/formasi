@@ -1,4 +1,3 @@
-
 export default function Footer() {
   return (
     <footer className="footer items-center py-4 bg-slate-800 text-neutral-content px-6  sm:px-20 lg:px-32 flex justify-items-start flex-col lg:flex-row lg:justify-between">
