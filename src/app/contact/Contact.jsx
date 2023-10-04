@@ -1,15 +1,15 @@
 export default function Contact() {
   return (
-    <div id="Contact" className="px-6 text-slate-800 sm:px-20 lg:px-36 mb-12 mt-12">
+    <div id="Contact" className="px-6 w-screen text-slate-800 sm:px-20 lg:px-36 mb-12 mt-8">
       <h1 className="mb-4 text-2xl text-center font-bold">contact</h1>
-      <div className="flex flex-col lg:flex-row gap-y-10 gap-x-10 mt-14">
-        <div className="">
+      <div className="flex flex-col lg:flex-row lg:gap-y-10 lg:gap-x-10 mt-14">
+        <div className="mx-auto">
           <p>
             Berdiri sejak 2019 di Universitas Bahaudin Mudhary Madura, Sistem
             Informasi dari tahun tersebut mulai melkukan perkembangan dan
             menunjukkan eksistensinya
           </p>
-          <div className="flex flex-col gap-y-4 mt-24 lg:flex-row gap-x-6">
+          <div className="flex flex-col gap-y-4 lg:mt-24 mt-10 lg:flex-row gap-x-6">
             <div>
               <p>Alamat</p>
               <p>
@@ -54,12 +54,10 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="mt-8 lg:mt-0">
           <iframe
-            className="rounded-md"
+            className="rounded-md w-full h-full"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4648.061921270962!2d113.8435734958793!3d-7.0103062602263035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd9e77e50a35beb%3A0xe5c471834c85b042!2sSekretariat%20FORMASI!5e0!3m2!1sid!2sid!4v1696435054249!5m2!1sid!2sid"
-            width="600"
-            height="250"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"

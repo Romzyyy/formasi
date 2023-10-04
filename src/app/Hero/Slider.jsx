@@ -17,31 +17,31 @@ const Slider = () => {
   };
 
   return (
-    <div id="Home" className="h-screen w-full">
+    <div id="Home" className="h-fit w-full">
       <Zoom {...zoomProperties}>
         {images.map((each, index) => (
           <div
             key={index}
-            className="flex h-screen w-screen items-center justify-center"
+            className="flex lg:h-screen h-5/6 w-screen bg-red-500 items-center justify-center"
           >
             <Image
-              className=" object-cover brightness-50"
+              className="object-contain brightness-50"
               alt="SlideImage"
               src={each}
               width={10000}
               height={10000}
             />
-            <div className="absolute right-0 h-full w-full  bg-no-repeat" style={{backgroundImage: `url('image/baground.webp')`}}>
-              <h1 className="z-10 pt-60 bg-gradient-to-r from-slate-400 to-slate-100 bg-clip-text text-center text-6xl sm:text-7xl lg:text-8xl font-extrabold tracking-widest text-transparent">
+            <div className="absolute right-0 lg:h-full h-full w-full  bg-no-repeat" style={{backgroundImage: `url('image/baground.webp')`}}>
+              <h1 className="z-10 pt-28 bg-gradient-to-r from-slate-400 to-slate-100 bg-clip-text text-center text-2xl sm:text-7xl lg:text-8xl font-extrabold tracking-widest text-transparent">
                 FORMASI
               </h1>
-              <p className="inset-x-1/4 top-40 z-10 mt-2 bg-gradient-to-l from-slate-400 to-slate-100 bg-clip-text text-center text-3xl sm:text-4xl lg:text-5xl font-bold text-transparent">
+              <p className="inset-x-1/4 top-40 z-10 mt-2 bg-gradient-to-l from-slate-400 to-slate-100 bg-clip-text text-center text-xl sm:text-4xl lg:text-5xl font-bold text-transparent">
                 FORUM MAHASISWA SISTEM INFORMASI
               </p>
-              <p className="  inset-x-1/4 top-20 z-10 mt-2  text-center text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl font-extrabold text-slate-50">
+              <p className="  inset-x-1/4 top-20 z-10 mt-2  text-center text-xl sm:text-3xl lg:text-4xl 2xl:text-5xl font-extrabold text-slate-50">
                 UNIBA MADURA
               </p>
-              <div className="mt-24 flex flex-row justify-center gap-x-8 text-white">
+              <div className="hidden mt-1 lg:flex flex-row justify-center gap-x-8 text-white">
                 <a>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
