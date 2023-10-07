@@ -11,6 +11,8 @@ const images = [
   { title: "image8", src: "/image/slider2.webp" },
 ];
 
+const sliced = images.slice(0, 10);
+
 export default async function Galery() {
   return (
     <div
@@ -22,7 +24,7 @@ export default async function Galery() {
       </h1>
       <div className="flex flex-row">
         <div className="mb-10 columns-2 md:columns-3 lg:columns-4">
-          {images.map((image) => (
+          {sliced.map((image) => (
             <Image
               key={image.title}
               src={image.src}

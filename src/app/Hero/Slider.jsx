@@ -5,7 +5,11 @@ import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
 const Slider = () => {
-  const images = ["/image/slider1.webp", "/image/slider2.webp", "/image/slider3.webp"];
+  const images = [
+    "/image/slider1.webp",
+    "/image/slider2.webp",
+    "/image/slider3.webp",
+  ];
 
   const zoomProperties = {
     scale: 1,
@@ -17,21 +21,21 @@ const Slider = () => {
   };
 
   return (
-    <div id="Home" className="h-fit w-full">
+    <div id="Home" className="h-screen w-full">
       <Zoom {...zoomProperties}>
         {images.map((each, index) => (
           <div
             key={index}
-            className="flex lg:h-screen h-5/6 w-screen items-center justify-center"
+            className="flex h-screen w-screen items-center justify-center"
           >
             <Image
-              className="object-contain brightness-50"
+              className="object-cover brightness-50"
               alt="SlideImage"
               src={each}
-              width={10000}
-              height={10000}
+              layout="fill"
+              objectFit="cover"
             />
-            <div className="absolute right-0 lg:h-full h-full w-full  bg-no-repeat" style={{backgroundImage: `url('image/baground.webp')`}}>
+            {/* <div className="absolute right-0 lg:h-full h-full w-full  bg-no-repeat" style={{backgroundImage: `url('image/baground.webp')`}}>
               <h1 className="z-10 pt-28 bg-gradient-to-r from-slate-400 to-slate-100 bg-clip-text text-center text-2xl sm:text-7xl lg:text-8xl font-extrabold tracking-widest text-transparent">
                 FORMASI
               </h1>
@@ -76,7 +80,7 @@ const Slider = () => {
                   </svg>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         ))}
       </Zoom>
