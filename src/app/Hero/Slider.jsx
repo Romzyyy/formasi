@@ -22,7 +22,7 @@ const Slider = () => {
         {images.map((each, index) => (
           <div
             key={index}
-            className="flex lg:h-screen h-5/6 w-screen bg-red-500 items-center justify-center"
+            className="flex lg:h-screen h-5/6 w-screen items-center justify-center"
           >
             <Image
               className="object-contain brightness-50"

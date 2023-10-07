@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="footer items-center py-4 bg-slate-800 text-neutral-content px-6  sm:px-20 lg:px-32 flex justify-items-start flex-col lg:flex-row lg:justify-between">
-      <aside className="items-center grid-flow-col order-last">
+      <aside className="items-center grid-flow-col order-last -mt-6 md:mt-0">
         <p>Copyright © 2023 - All right reserved</p>
       </aside>
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end lg:order-last">
