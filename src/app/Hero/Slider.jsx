@@ -4,7 +4,7 @@ import React from "react";
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
-const Slider = () => {
+export default function Slider () {
   const images = [
     "/image/slider1.webp",
     "/image/slider2.webp",
@@ -21,26 +21,26 @@ const Slider = () => {
   };
 
   return (
-    <div id="Home" className="h-96 md:h-screen w-full">
+    <di id="Home" className="h-96 md:h-screen w-full">
       <Zoom {...zoomProperties}>
         {images.map((each, index) => (
           <div
-            key={index}
-            className="flex h-96 md:h-screen w-screen items-center justify-center brightness-50"
+          key={index}
           >
             <Image
-              className="object-cover brightness-50 contrast-50"
+              className="object-cover flex h-96 md:h-screen w-screen items-center justify-center"
               alt="SlideImage"
               src={each}
-              layout="fill"
-              objectFit="cover"
+              width={10000}
+              height={10000}
             />
-            <h1 className="absolute text-white text-7xl lg:text-9xl opacity-10 font-extrabold">FORMASI</h1>
+            <h1 className="absolute text-white text-7xl lg:text-9xl opacity-10 font-extrabold">
+              FORMASI
+            </h1>
           </div>
         ))}
       </Zoom>
-    </div>
+    </di>
   );
 };
 
-export default Slider;

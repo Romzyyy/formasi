@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div id='Profile' className='mt-4 text-slate-800 w-full px-6 sm:px-20 lg:px-36'>
+        <div id='Profile' className='mt-4 text-slate-800 w-full px-6 sm:px-10 lg:px-36'>
             <p className='text-xl tracking-wide mt-1'>
                 <span className='font-semibold text-xl mr-2'>
                     Forum Mahasiswa Sistem Informasi
