@@ -6,6 +6,9 @@ module.exports = {
         './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     ],
     theme: {
+        fontSize: {
+            '9xl': '24.052rem',
+          },
         extend: {
             backgroundImage: {
                 'hero-pattern': "url('/public/banner.png')",
