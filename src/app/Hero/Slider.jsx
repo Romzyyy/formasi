@@ -4,7 +4,7 @@ import React from "react";
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
-export default function Slider () {
+export default function Slider() {
   const images = [
     "/image/slider1.webp",
     "/image/slider2.webp",
@@ -12,35 +12,43 @@ export default function Slider () {
   ];
 
   const zoomProperties = {
-    scale: 1,
-    duration: 5000,
-    TransitionDuration: 100,
+    scale: 0.9,
+    duration: 500,
+    TransitionDuration: 100, // Mengubah 'TransitionDuration' menjadi 'transitionDuration'
     infinite: true,
     arrows: false,
-    pauseOnHover: false,
+    pauseOnHover: true,
   };
 
   return (
-    <di id="Home" className="h-96 md:h-screen w-full">
+    <div  className="hero h-[700px] relative w-[500px]">
       <Zoom {...zoomProperties}>
         {images.map((each, index) => (
-          <div
-          key={index}
-          >
+          <div key={index}>
             <Image
-              className="object-cover flex h-96 md:h-screen w-screen items-center justify-center"
-              alt="SlideImage"
               src={each}
-              width={10000}
-              height={10000}
+              width={10}
+              height={10}
+              priority={false} // {false} | {true}
+              className="object-fill"
+              alt={`Slide ${index + 1}`}
             />
-            <h1 className="absolute text-white text-7xl lg:text-9xl opacity-10 font-extrabold">
-              FORMASI
-            </h1>
+            <div className="hero-content text-center text-neutral-content absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <div className="max-w-md">
+                <h1 className="mb-5 text-5xl font-bold text-white">
+                  Hello there
+                </h1>
+                <p className="mb-5 text-white">
+                  Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                  assumenda excepturi exercitationem quasi. In deleniti eaque
+                  aut repudiandae et a id nisi.
+                </p>
+                <button className="btn btn-primary">Get Started</button>
+              </div>
+            </div>
           </div>
         ))}
       </Zoom>
-    </di>
+    </div>
   );
-};
-
+}
